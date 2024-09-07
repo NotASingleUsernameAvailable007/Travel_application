@@ -1,0 +1,49 @@
+.booking-page {
+    text-align: center; /* Center all content inside the booking page */
+  }
+  
+  .header {
+    margin-bottom: 20px; /* Add some space below the header */
+  }
+  
+  .header h1 {
+    font-size: 3rem; /* Make the heading large */
+    color: #007bff; /* Use a blue color for emphasis */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    margin-top: 20px; /* Add some space at the top */
+  }
+  
+  .header h1:hover {
+    color: #0056b3; /* Change color on hover for interactivity */
+  }
+  
+  .filters {
+    margin: 20px 0;
+  }
+  
+  .filters label {
+    font-weight: bold;
+  }
+  
+  .filters select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .no-results {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .no-results p {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 0;
+  }
